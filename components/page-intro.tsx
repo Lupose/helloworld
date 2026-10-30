@@ -1,0 +1,2 @@
+import Link from 'next/link';
+export function PageIntro({number,title,description}:{number:string;title:string;description:string}){return <section className="page-intro"><div className="shell"><div className="breadcrumb"><Link href="/">Oceanus</Link><span>/</span><span>{title}</span></div><span className="eyebrow">{number} / OCEANUS 研究资料</span><h1>{title}</h1><p>{description}</p></div></section>}
